@@ -1,0 +1,8 @@
+iLife '11 repackaging script
+============================
+
+This creates a flat package suitable for deployment with InstaDMG, DeployStudio, Absolute Manage, and other management tools. To use it, mount an iLife '11 installer disc and run:
+
+  ./repackage_ilife11.sh "/Volumes/iLife '11 Install DVD"
+
+It'll run and hopefully create a 3 GB flat package with today's datestamp.
